@@ -1,6 +1,6 @@
 
 const products = [
-    { id: 1,  name: "1 Mukhi Rudraksha",  price: 3190, off: 10, img: "r1.png" },
+    { id: 1 ,  name: "1 Mukhi Rudraksha",  price: 3190, off: 10, img: "r1.png" },
     { id: 2,  name: "2 Mukhi Rudraksha",  price: 1151, off: 10, img: "r2.jpg" },
     { id: 3,  name: "4 Mukhi Rudraksha",  price: 1021, off: 10, img: "r3.jpg" },
     { id: 4,  name: "5 Mukhi Rudraksha",  price: 499,  off: 10, img: "r4.jpg" },
@@ -34,7 +34,8 @@ const products = [
     productGrid.innerHTML = products
       .map((p) => {
         return `
-        <article class="rounded-2xl shadow-card overflow-hidden border border-slate-100 bg-white">
+      <article class="rounded-2xl shadow-card overflow-hidden border border-slate-100 bg-white 
+           transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
         
           <div class="relative p-4">
             <span class="absolute left-4 top-4 text-[11px] font-medium bg-brand.tag text-slate-800 px-2 py-1 rounded-full">Rudraksha</span>
