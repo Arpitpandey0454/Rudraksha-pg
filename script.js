@@ -35,7 +35,7 @@ const products = [
       .map((p) => {
         return `
       <article class="rounded-2xl shadow-card overflow-hidden border border-slate-100 bg-white 
-           transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
+           transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg"> 
         
           <div class="relative p-4">
             <span class="absolute left-4 top-4 text-[11px] font-medium bg-brand.tag text-slate-800 px-2 py-1 rounded-full">Rudraksha</span>
